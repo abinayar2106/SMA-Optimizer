@@ -1,7 +1,7 @@
 # SMA-Optimizer for Ni-Ti-Hf alloys
 
 **Physics-informed, interpretable machine learning for high-temperature shape memory alloy discovery.**
-
+Recommendor cum Interpretor Model
 Predicts transformation temperatures, thermal hysteresis, and recoverable strain across the Ni–Ti–Hf ternary composition space — and explains which compositional and processing parameters drive each property. Integrates a gradient-boosted ML surrogate with an analytical crystallographic engine to identify compositions satisfying both T > 200 °C and near-zero transformation hysteresis (|λ₂ − 1| < 0.01).
 
 ---
