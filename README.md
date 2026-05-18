@@ -3,7 +3,7 @@
 **Physics-informed, interpretable machine learning for high-temperature shape memory alloy discovery.**
 Recommendor cum Interpretor Model
 Predicts transformation temperatures, thermal hysteresis, and recoverable strain across the Ni–Ti–Hf ternary composition space — and explains which compositional and processing parameters drive each property. Integrates a gradient-boosted ML surrogate with an analytical crystallographic engine to identify compositions satisfying both T > 200 °C and near-zero transformation hysteresis (|λ₂ − 1| < 0.01).
-
+Future Goal: To apply this for Ni-Ti-Cu/Pt/Pd alloys
 ---
 
 ## Motivation
@@ -52,7 +52,7 @@ A black-box model would estimate cyclic stability statistically. This architectu
 ### Inputs
 | Feature | Description |
 |---|---|
-| Ni, Ti, Hf (at%) | Ternary composition |
+| Ni, Ti, Hf (at%) | Ternary composition | 
 | VEC / e/a ratio | Valence electron concentration |
 | Elemental bonding fractions | d-electron and bonding character |
 | Atomic size mismatch | Variance in atomic radii (driven by Hf) |
