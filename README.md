@@ -1,6 +1,6 @@
 # SMA-Optimizer for Ni-Ti-Hf alloys
 
-**An interpretable, generalizable ML framework for NiTi-based SMAs: identifying compositional and processing parameters that govern kinematic compatibility (λ₂) and volumetric stability (ΔV), with composition-space mapping of the triple constraint — T > 200°C, |λ₂ − 1| < 0.01, ΔV ≈ 0
+An interpretable, generalizable ML framework for NiTi-based SMAs: identifying compositional and processing parameters that govern kinematic compatibility (λ₂) and volumetric stability (ΔV), with composition-space mapping of the triple constraint — T > 200°C, |λ₂ − 1| < 0.01, ΔV ≈ 0
 Future Goal: To apply this for Ni-Ti-Cu/Pt/Pd alloys
 ---
 
