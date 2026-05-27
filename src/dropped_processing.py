@@ -43,7 +43,7 @@ from sklearn.feature_selection import VarianceThreshold
 # DATA LOADING  (same merge logic as original script)
 # ─────────────────────────────────────────────────────────────────────────────
 # Look for the data folder relative to where the repository is cloned
-folder = os.path.join(".", "data", "raw")
+folder = r"C:\Users\abina\OneDrive\Desktop\SMA-Optimizer\data\raw"
 files  = glob.glob(os.path.join(folder, "*.csv"))
 
 composite_index = ['Authors', 'Source', 'Title', 'Year',
@@ -730,7 +730,7 @@ html_content = f"""<!DOCTYPE html>
 </body>
 </html>"""
 
-out_path = os.path.join("..", "outputs", "sma_pca_informatics.html")
+out_path = os.path.join(".", "outputs", "sma_pca_informatics.html")
 os.makedirs(os.path.dirname(out_path), exist_ok=True)
 with open(out_path, "w", encoding="utf-8") as f:
     f.write(html_content)
