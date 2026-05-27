@@ -730,8 +730,15 @@ html_content = f"""<!DOCTYPE html>
 </body>
 </html>"""
 
-out_path = os.path.join("..", "outputs", "sma_pca_informatics.html")
+# 1. Get the absolute path of the directory containing THIS script (e.g., .../src)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# 2. Go up one level from 'src' to the project root, then into 'outputs'
+out_path = os.path.join(BASE_DIR, "..", "outputs", "sma_pca_informatics.html")
+
+# 3. Create the directory if it doesn't exist
 os.makedirs(os.path.dirname(out_path), exist_ok=True)
+
 with open(out_path, "w", encoding="utf-8") as f:
     f.write(html_content)
 
