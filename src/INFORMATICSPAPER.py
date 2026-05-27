@@ -829,7 +829,7 @@ html_content = f"""<!DOCTYPE html>
 </body>
 </html>"""
 
-out_path = os.path.join("..", "outputs", "informatics_pca_dashboard.html")
+out_path = os.path.join(".", "outputs", "informatics_pca_dashboard.html")
 os.makedirs(os.path.dirname(out_path), exist_ok=True)
 with open(out_path, "w", encoding="utf-8") as f:
     f.write(html_content)
